@@ -1,6 +1,6 @@
 package com.example.projetoplanosaude.controller;
 
-import com.example.projetoplanosaude.planosaude.domain.PlanoSaude;
+import com.example.projetoplanosaude.domain.PlanoSaude;
 import com.example.projetoplanosaude.repository.PlanoSaudeRepository;
 
 import org.springframework.web.bind.annotation.DeleteMapping;

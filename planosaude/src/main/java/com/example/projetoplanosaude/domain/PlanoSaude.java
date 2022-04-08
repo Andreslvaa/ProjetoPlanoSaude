@@ -1,4 +1,4 @@
-package com.example.projetoplanosaude.planosaude.domain;
+package com.example.projetoplanosaude.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -14,7 +14,7 @@ public class PlanoSaude{
     private double ValorIndividual;
     private double ValorFamiliar;
 
-    public PlanoSaude(String string) {
+    public PlanoSaude() {
     }
 
     public Long getId() {

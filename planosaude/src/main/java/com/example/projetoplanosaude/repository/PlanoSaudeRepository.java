@@ -1,7 +1,7 @@
 package com.example.projetoplanosaude.repository;
 
 
-import com.example.projetoplanosaude.planosaude.domain.PlanoSaude;
+import com.example.projetoplanosaude.domain.PlanoSaude;
 
 import org.springframework.data.repository.CrudRepository;
 
