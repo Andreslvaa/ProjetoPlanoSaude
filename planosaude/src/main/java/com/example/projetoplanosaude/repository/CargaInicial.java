@@ -1,6 +1,9 @@
 package com.example.projetoplanosaude.repository;
 
-import com.example.projetoplanosaude.planosaude.domain.Pessoa;
+
+
+
+import com.example.projetoplanosaude.planosaude.domain.PlanoSaude;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,10 +17,11 @@ public class CargaInicial {
     private static final Logger log = LoggerFactory.getLogger(CargaInicial.class);
 
     @Bean CommandLineRunner
-    iniciarDb(PessoaRepository repository){
+    iniciarDb(PlanoSaudeRepository repository){
         return args -> {
-            log.info("Carregando..." + repository.save(new Pessoa("Pedro")));
-            log.info("Carregando..." + repository.save(new Pessoa("Ana")));
+            
+            log.info("Carregando..." + repository.save(new PlanoSaude("Amil")));
+            log.info("Carregando..." + repository.save(new PlanoSaude("Unimed")));
         };
     }
     
